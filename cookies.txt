@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.vitthalsales.netlify.app	TRUE	/	FALSE	1999999999	csrftoken	6pBpGfbPQ0lPsgivyjTG94iHfuT1WhE7z0lE1TmVNkuoUJkEqdaweQEdohlJ3mYI
+www.vitthalsales.netlify.app	TRUE	/	FALSE	1999999999	SameSite	Lax
+
