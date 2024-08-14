@@ -295,6 +295,15 @@
       </div>
 
       <hr />
+      <script
+        type="text/javascript"
+        src="https://cdn.emailjs.com/dist/email.min.js"
+      ></script>
+      <script type="text/javascript">
+        (function () {
+          emailjs.init("YOUR_USER_ID");
+        })();
+      </script>
 
       <div class="contact-us-form">
         <div class="content-form">
@@ -311,7 +320,8 @@
               name="email"
               id=""
               class="form-control"
-              placeholder="Email"
+              placeholder="Email Id"
+              required
             />
             <textarea
               class="form-control"
@@ -320,6 +330,7 @@
               cols="30"
               rows="4"
               placeholder="Message"
+              required
             ></textarea>
             <button type="submit" class="btn nav-search-btn contact-btn">
               Submit
