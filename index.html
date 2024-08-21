@@ -578,17 +578,8 @@
             <a href="contact-us/index.html">Contact Us</a>
           </li>
           <li class="nav-items last-nav-item">
-            <form
-              class="search-mobile"
-              action="https://www.vitthalsales.netlify.app/search/"
-              method="GET"
-            >
-              <input
-                type="search"
-                placeholder="Search"
-                class="form-control"
-                name="search-query"
-              />
+            <form class="search-mobile" action="./category/sanitaryware.html">
+              <input type="search" placeholder="Search" class="form-control" />
 
               <button type="submit" class="btn nav-search-btn">Search</button>
             </form>
@@ -609,31 +600,12 @@
       <div class="close-btn">
         <img src="static/main/img/close.png" alt="Vitthal Sales" />
       </div>
-      <form action="https://www.vitthalsales.netlify.app/search/" method="GET">
-        <input
-          type="search"
-          placeholder="Search"
-          class="form-control"
-          name="search-query"
-        />
+      <form action="./category/bathroom-accessories.html">
+        <input type="search" placeholder="Search" class="form-control" />
 
         <button type="submit" class="btn nav-search-btn">Search</button>
       </form>
     </div>
-
-    <script>
-      var search_mobile_btn = document.querySelector(".search-icon");
-      var search_box = document.querySelector(".search-box");
-      var close_btn = document.querySelector(".close-btn");
-
-      search_mobile_btn.addEventListener("click", function () {
-        search_box.classList.toggle("search-box-active");
-      });
-
-      close_btn.addEventListener("click", function () {
-        search_box.classList.remove("search-box-active");
-      });
-    </script>
 
     <!-- header section -->
 
